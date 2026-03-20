@@ -15,6 +15,7 @@ public final class ModCreativeTabs {
     private static void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModItems.RUBY_BLOCK_ITEM);
+            event.accept(ModItems.GLOWING_QUARTZ_SLAB_ITEM);
         }
     }
 }

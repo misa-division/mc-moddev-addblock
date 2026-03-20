@@ -1,4 +1,6 @@
 {
   "block.mcmoddevaddblock.ruby_block": "ルビーブロック",
-  "item.mcmoddevaddblock.ruby_block": "ルビーブロック"
+  "item.mcmoddevaddblock.ruby_block": "ルビーブロック",
+  "block.mcmoddevaddblock.glowing_quartz_slab": "光るクォーツのハーフブロック",
+  "item.mcmoddevaddblock.glowing_quartz_slab": "光るクォーツのハーフブロック"
 }

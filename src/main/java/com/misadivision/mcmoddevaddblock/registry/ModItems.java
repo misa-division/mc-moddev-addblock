@@ -16,6 +16,12 @@ public final class ModItems {
             new Item.Properties()
     );
 
+    public static final DeferredItem<BlockItem> GLOWING_QUARTZ_SLAB_ITEM = ITEMS.registerSimpleBlockItem(
+            ModBlocks.GLOWING_QUARTZ_SLAB.getId().getPath(),
+            ModBlocks.GLOWING_QUARTZ_SLAB,
+            new Item.Properties()
+    );
+
     private ModItems() {
     }
 

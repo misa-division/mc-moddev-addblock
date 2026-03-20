@@ -1,4 +1,6 @@
 {
   "block.mcmoddevaddblock.ruby_block": "Ruby Block",
-  "item.mcmoddevaddblock.ruby_block": "Ruby Block"
+  "item.mcmoddevaddblock.ruby_block": "Ruby Block",
+  "block.mcmoddevaddblock.glowing_quartz_slab": "Glowing Quartz Slab",
+  "item.mcmoddevaddblock.glowing_quartz_slab": "Glowing Quartz Slab"
 }

@@ -3,6 +3,7 @@ package com.misadivision.mcmoddevaddblock.registry;
 import com.misadivision.mcmoddevaddblock.McModDevAddBlock;
 import com.misadivision.mcmoddevaddblock.block.basic.BasicBlockDefinitions;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -13,6 +14,11 @@ public final class ModBlocks {
     public static final DeferredBlock<Block> RUBY_BLOCK = BLOCKS.register(
             BasicBlockDefinitions.RUBY_BLOCK_ID,
             BasicBlockDefinitions::createRubyBlock
+    );
+
+    public static final DeferredBlock<SlabBlock> GLOWING_QUARTZ_SLAB = BLOCKS.register(
+            BasicBlockDefinitions.GLOWING_QUARTZ_SLAB_ID,
+            BasicBlockDefinitions::createGlowingQuartzSlab
     );
 
     private ModBlocks() {

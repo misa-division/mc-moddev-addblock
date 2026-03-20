@@ -10,15 +10,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public final class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(McModDevAddBlock.MOD_ID);
 
-    public static final DeferredItem<BlockItem> RUBY_BLOCK_ITEM = ITEMS.registerSimpleBlockItem(
-            ModBlocks.RUBY_BLOCK.getId().getPath(),
-            ModBlocks.RUBY_BLOCK,
-            new Item.Properties()
-    );
-
-    public static final DeferredItem<BlockItem> GLOWING_QUARTZ_SLAB_ITEM = ITEMS.registerSimpleBlockItem(
-            ModBlocks.GLOWING_QUARTZ_SLAB.getId().getPath(),
-            ModBlocks.GLOWING_QUARTZ_SLAB,
+    public static final DeferredItem<BlockItem> SMOOTH_GLOWING_QUARTZ_SLAB_ITEM = ITEMS.registerSimpleBlockItem(
+            ModBlocks.SMOOTH_GLOWING_QUARTZ_SLAB.getId().getPath(),
+            ModBlocks.SMOOTH_GLOWING_QUARTZ_SLAB,
             new Item.Properties()
     );
 

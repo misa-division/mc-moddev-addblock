@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mcmoddevaddblock:glowing_quartz_slab",
+          "name": "mcmoddevaddblock:smooth_glowing_quartz_slab",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -18,7 +18,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "mcmoddevaddblock:glowing_quartz_slab",
+                  "block": "mcmoddevaddblock:smooth_glowing_quartz_slab",
                   "properties": {
                     "type": "double"
                   }

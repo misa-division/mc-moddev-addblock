@@ -7,14 +7,14 @@
   ],
   "key": {
     "Q": {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:smooth_quartz_slab"
     },
     "T": {
       "item": "minecraft:torch"
     }
   },
   "result": {
-    "id": "mcmoddevaddblock:glowing_quartz_slab",
+    "id": "mcmoddevaddblock:smooth_glowing_quartz_slab",
     "count": 8
   }
 }

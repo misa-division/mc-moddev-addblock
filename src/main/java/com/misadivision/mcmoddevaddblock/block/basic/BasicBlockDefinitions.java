@@ -17,6 +17,6 @@ public final class BasicBlockDefinitions {
                 .strength(0.8F)
                 .requiresCorrectToolForDrops()
                 .sound(SoundType.STONE)
-                .lightLevel(state -> 12));
+                .lightLevel(state -> 15));
     }
 }
